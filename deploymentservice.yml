@@ -13,8 +13,8 @@ spec:
         app: ekart
     spec:
       containers:
-        - name: ekart
-          image: adijaiswal/ekart:latest # Image that will be used to containers in the cluster
+        - name: tranvantai26
+          image: tranvantai26/full-bank-jk:latest # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8070 # The port that the container is running on in the cluster
